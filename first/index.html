@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>主页</title>
+	<link rel="stylesheet" href="index.css">
+	<script src="index.js"></script>
+</head>
+<body>
+	<!-- 背景色 -->
+	<div class="main">
+		<div class="first">
+			<h2 class="title">菜谱状态</h2>
+			<div class="line"></div>
+			<!-- 待完成区域 -->
+			<div class="red">
+					<div class="gradul-box">
+						<div class="ant-items">
+							<span class="d"></span>
+							<div class="ant-items-tail"></div>
+							<span class="d d2"></span>
+							
+							<div class="ant-items-tail tail2"></div>
+							<span class="d d3"></span>
+							<div class="ant-items-tail tail3"></div>
+							
+							
+							<span class="text">草稿</span>
+							<span class="text text2">已审核</span>
+							<span class="text text3">未发布</span>
+							<span class="text text4">已下架</span>
+						</div>
+					</div>
+					<div class="red_box red1"></div>
+					<div class="red_box red2"></div>
+					<div class="red_box red3"></div>
+					<div class="red_box red4"></div>
+		    </div>
+		    <!-- 审批区域 -->
+		    <div class="review">
+		    	<label title="审批意见">审批意见:</label>
+		    	<div class="opinion">
+		    		<div class="select">
+		    			<div class="ant-select" id="ant-select">同意</div>
+
+		    			
+                        <div class="agree" id="agree">
+                        	<ul>
+                        		<li class="one">同意</li>
+                        		<li>不同意</li>
+                        	</ul>
+                        </div>
+		    		</div>
+		    	</div>
+		    	<label class="la2">Tips:</label>
+		    	<div class="tips"><input type="text"></div>
+		    	<button id="but">确&nbsp;认</button>
+		    	<button class="btn2">编辑菜谱</button>
+		    </div>
+
+
+		</div>
+		<!-- 第二部分 -->
+		<div class="second">
+			<h2 class="title">基本信息</h2>
+			    <div class="line"></div>
+				<div class="top">
+					<label>菜谱名称&nbsp;:</label>
+			        <div class="name">乌鸡汤</div>
+			    </div>
+		        <label>上传图片&nbsp;:</label>
+		        <div class="upload" id="upload">
+		        	<ul>
+		        		<li class="tab item">通用</li>
+		        		<li class="tab">博世</li>
+		        		<li class="tab">西门子</li>
+		        		<li class="last1" id="last">Home connect</li>
+		        	</ul>
+		        	<div class="li1 show">1</div>
+		        	<div class="li1">2</div>
+		        	<div class="li1">3</div>
+		        	<div class="li1">4</div>
+		        </div>
+		        <label class="video">视屏地址&nbsp;:</label>
+		        <div class="upload2 upload " id="upload2">
+		        	<ul>
+		        		<li class="tab item">通用</li>
+		        		<li class="tab">博世</li>
+		        		<li class="tab">西门子</li>
+		        		
+		        	</ul>
+		        	<div class="tab1" id="show">1</div>
+		        	<div class="tab1">2</div>
+		        	<div class="tab1">3</div>
+		        </div>
+		</div>
+		<div class="third second">
+			<h2 class="title">附加信息</h2>
+			    <div class="line"></div>
+			    <div class="bybr">
+			    	<div class="ant-row">
+			    		<label>推荐描述:</label>
+			    		<div class="name2">test</div>
+			    	</div>
+			    </div>
+			    <div class="bybr">
+			    	<div class="ant-row">
+			    		<label>推荐评分:</label>
+			    		<div class="ant-form-assess" id="ant-form-assess">
+			    			<ul>
+			    				<li>☆</li>
+			    				<li>☆</li>
+							    <li>☆</li>
+							    <li>☆</li>
+							    <li>☆</li>
+			    			</ul>
+			    		</div>
+			    	</div>
+			    </div>
+			    <div class="bybr">
+			    	<div class="ant-row">
+			    		<label>难度等级:</label>
+			    		<div class="ant-form-assess" id="ant-form-assess2">
+			    			<ul>
+			    				<li>☆</li>
+			    				<li>☆</li>
+							    <li>☆</li>
+							    <li>☆</li>
+							    <li>☆</li>
+			    			</ul>
+			    		</div>
+			    	</div>
+			    </div>
+			    <div class="bybr">
+			    	<div class="ant-row">
+			    		<label>用餐人数:</label>
+			    		<button>4-6人</button>
+			    	</div>
+			    </div>
+
+			    <div class="line line2"></div>
+
+			    <div class="">
+			    	<h3>营养数据:</h3>
+			    	<div class="bybr">
+			    		<label>营养元素</label>
+			    		<span>维生素</span>
+			    		<label >单位:</label>
+			    		<span>卡</span>
+			    		<label >数量:</label>
+			    		<span>20</span>
+
+			    	</div>
+			    	<div class="bybr">
+			    		<label>营养标签</label>
+			    		<label >占比(%):</label>
+			    		<span>%5</span>
+			    	</div>
+			    	<div class="bybr">
+			    		<label>标签详情</label>
+			    	</div>
+			    </div>
+		</div>
+
+		<div class="four second">
+			<div class="four_top">
+				<h2 class="title">主料信息</h2>
+			</div>
+			<div class="bybr">
+				<label>名称:</label>
+				<span>乌鸡</span>
+				<label>单位:</label>
+				<span>g</span>
+				<label>数量:</label>
+				<span>400</span>
+				<div class="line"></div>
+			</div>
+			<div class="bybr">
+				<label>名称:</label>
+				<span>姜片</span>
+				<label>单位:</label>
+				<span>g</span>
+				<label>数量:</label>
+				<span>15</span>
+				<div class="line"></div>
+			</div>
+			<div class="bybr">
+				<label>名称:</label>
+				<span>料酒</span>
+				<label>单位:</label>
+				<span>g</span>
+				<label>数量:</label>
+				<span>8</span>
+				<div class="line"></div>
+			</div>
+			<div class="bybr">
+				<label>名称:</label>
+				<span>当归</span>
+				<label>单位:</label>
+				<span>g</span>
+				<label>数量:</label>
+				<span>40</span>
+				<div class="line"></div>
+			</div>
+			<div class="bybr">
+				<label>名称:</label>
+				<span>枸杞</span>
+				<label>单位:</label>
+				<span>g</span>
+				<label>数量:</label>
+				<span>30</span>
+				<div class="line"></div>
+			</div>
+			<div class="bybr">
+				<label>名称:</label>
+				<span>盐</span>
+				<label>单位:</label>
+				<span>g</span>
+				<label>数量:</label>
+				<span>12</span>
+				<div class="line"></div>
+			</div>
+			<div class="bybr">
+				<label>名称:</label>
+				<span>水</span>
+				<label>单位:</label>
+				<span>ml</span>
+				<label>数量:</label>
+				<span>1200</span>
+				<div class="line"></div>
+			</div>
+		</div>
+		<div class="five second">
+			<h2 class="title">辅助信息</h2>
+		</div>
+		<div class="six second">
+			<h2 class="title">烹饪步骤</h2>
+			<div class="line"></div>
+			<div class="">
+				<h3>步骤1</h3>
+				<div class="six_box">
+					<div class="six_box_top">
+						<div class="six_left six_T" id="six_left"><</div>
+						<div class="six_center" id="six_center">
+							<ul>
+								<li class="item">通用</li>
+								<li class="ta">博世</li>
+								<li class="ta">西门子</li>
+								<li class="last" id="last">Home connect</li>
+							</ul>
+							
+						</div>
+
+						<div class="six_right six_T" id="six_right">></div>
+
+					</div> 
+					<div class="six_tab active">1</div>
+					<div class="six_tab">2</div>
+					<div class="six_tab">3</div>
+					<div class="six_tab">4</div>
+				</div>
+				<div class="six_text">乌鸡洗净，切块后，焯水，备用。</div>
+			</div>
+			<div class="">
+				<h3>步骤2</h3>
+				<div class="six_box"></div>
+				<div class="six_text">将处理好的乌鸡块放入砂锅中，同时加入姜片、当归、枸杞、料酒、盐和水，搅拌均匀。</div>
+			</div>
+			<div class="">
+				<h3>步骤3</h3>
+				<div class="six_box"></div>
+				<div class="six_text">蒸汽烤箱水槽加满水，烤制时，砂锅必须加上盖子</div>
+			</div>
+			<div class="">
+				<h3>步骤4</h3>
+				<div class="six_box"></div>
+				<div class="six_text">将砂锅放入烤盘中，选择好程序后运行。</div>
+			</div>
+			<div class="">
+				<h3>步骤5</h3>
+				<div class="six_box"></div>
+				<div class="six_text">程序运行结束后，小心移出烤盘至桌上。</div>
+			</div>
+		</div>
+		<div class="seven second">
+			<h2 class="title">烹饪贴士</h2>
+			    <div class="line"></div>
+		</div>
+		<div class="eight second">
+			<h2 class="title">VB</h2>
+		</div>
+		<div class="nine second">
+			<h2 class="title">关键词</h2>
+		</div>
+	</div>
+</body>
+</html>
