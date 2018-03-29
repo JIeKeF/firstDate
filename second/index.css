@@ -1,0 +1,632 @@
+*{margin: 0;padding: 0;}
+ul{
+    list-style: none;
+}
+.top{
+    width: 100%;
+    height: 60px;
+    background: #FFFFFF;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.10);
+}
+.top .recipe{
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #2D2D2D;
+    letter-spacing: 0;
+    margin-left: 210px;
+    margin-top: 10px;
+    line-height: 20px;
+    display: inline-block;
+}
+.top .bg{
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    margin-top: 20px;
+    text-align: center; 
+    
+}
+.center{
+    width: 100%;
+    background: #FFFFFF;
+}
+.center .mg{
+    margin-left: 32%;
+    margin-top: 34px;
+}
+.center .center_1{
+    width: 110px;
+    height: 32px;
+    font-family: PingFangSC-Regular;
+    font-size: 12px;
+    color: #0155FF;
+    letter-spacing: 0;
+    line-height: 32px;
+    border: 1px solid #0155FF;
+    margin-left: 30px;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 24px;
+}
+.main{
+    margin-left: 32%;
+    margin-top: 34px;
+}
+.main .main_first{
+    width: 706px;
+    height: 484px;
+    background: #FFFFFF;
+    box-shadow: 0 0 6px 0 rgba(0,0,0,0.10);
+    margin-top: 30px;
+}
+.main .main_height2{
+    height: 580px;
+}
+.main .main_first h2{
+    font-family: PingFangSC-Medium;
+    font-size: 18px;
+    color: #2D2D2D;
+    margin-left:20px;
+    margin-top: 20px;
+    font-weight:500;
+    display:inline-block; 
+    line-height: 25px;
+}
+.main .main_first .line{
+    background: rgba(0,82,152,0.10);
+    width: 666px;
+    height: 1px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.main .main_first .name{
+    height: 32px;
+    width: 100%;
+    margin-top: 30px;
+}
+.main .main_first  .name_re{
+    width: 76px;
+    height: 20px;
+    margin-left: 30px;
+    margin-top: 6px;
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #2D2D2D;
+    display: inline-block;
+    vertical-align: top;
+
+}
+.main .main_first .name .name_int{
+    width: 570px;
+    height: 32px;
+    border: 1px solid #C6CBD4;
+    border-radius: 2px;
+    display: inline-block;
+}
+.main .main_first .name .name_int .text{
+    opacity: 0.3;
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #2D2D2D;
+    margin-left: 10px;
+    margin-top: 6px;
+}
+.main .main_first .upload{
+    width: 100%;
+    height: 162px;
+    margin-top: 30px;
+}
+.main .main_first .upload .upload_img{
+    width: 570px;
+    height: 162px;
+    background: #FFFFFF;
+    border: 1px solid #C6CBD4;
+    border-radius: 4px;
+    display: inline-block;
+}
+.main .main_first .upload .upload_img .img_top{
+    width: 100%;
+    height: 32px;
+}
+.main .main_first .upload .upload_img .img_top ul{
+    border-bottom: 1px solid #C6CBD4;
+    height: 31px;
+    width: 100%;
+}
+.main .main_first .upload .upload_img .img_top ul li{
+    float: left;
+    width: 90px;
+    text-align: center;
+    line-height: 32px;
+    font-size: 12px;
+    border-right: 1px solid white;
+    border-bottom: 0;
+    cursor: pointer;
+}
+.main .main_first .upload .upload_img .img_top ul .one{
+    border-right: 1px solid #C6CBD4;
+    border-left: 1px solid #C6CBD4;
+    padding-bottom: 1px;
+    background: #FFFFFF;
+}
+.main .main_first .upload .upload_img .img_top ul #one1{
+    border-left: 1px solid white;
+}
+.main .main_first .video{
+    width: 100%;
+    height: 104px;
+    margin-top: 30px;
+    
+}
+.main .main_first .video .video_up{
+    width: 570px;
+    height: 104px;
+    display: inline-block;
+    background: #FFFFFF;
+    border: 1px solid #C6CBD4;
+    border-radius: 4px;
+}
+.main .main_first .video .video_up .link{
+    width: 530px;
+    height: 32px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border: 1px solid #C6CBD4;
+    border-radius: 2px;
+    line-height: 32px;
+    color: #C6CBD4;
+    display: none;
+}
+.main .main_first .video .video_up .video_top{
+    width: 100%;
+    height: 32px;
+}
+.main .main_first .video .video_up .video_top ul{
+    border-bottom: 1px solid #C6CBD4;
+    height: 31px;
+    width: 100%;
+}
+.main .main_first .video .video_up .video_top ul li{
+    float: left;
+    width: 90px;
+    text-align: center;
+    line-height: 32px;
+    font-size: 12px;
+    border-right: 1px solid white;
+    border-bottom: 0;
+    cursor: pointer;
+}
+.main .main_first .video .video_up .video_top ul .one{
+    border-right: 1px solid #C6CBD4;
+    border-left: 1px solid #C6CBD4;
+    padding-bottom: 1px;
+    background: #FFFFFF;
+}
+.main .main_first .video .video_up .video_top ul #one2{
+
+    border-left: 1px solid white;
+    
+}
+.main .main_first .video .video_up .at{
+    display: block;
+}
+.main .main_first .xen{
+    width: 100%;
+    height: 32px;
+    margin-top: 31px;
+}
+.main .main_first .xen ul{
+    margin-top: 6px;
+    width: 150px;
+    height: 20px;
+    display: inline-block;
+}
+.main .main_first .xen ul li{
+    float: left;
+    width: 22px;
+    height: 22px;
+    margin-left: 5px;
+    background:url(img/ic_star_u.png) no-repeat center;
+    background-size: 20px 20px;
+    vertical-align: top;
+}
+.main .main_first .xen ul .light{
+    background:url(img/ic_star_s.png) no-repeat center;
+    background-size: 20px 20px;
+}
+.main .main_first .men{
+    width: 74px;
+    height: 23.9px;
+    font-family: PingFangSC-Regular;
+    font-size: 12px;
+    margin-top: 6px;
+    letter-spacing: 0;
+    line-height: 24px;
+    margin-right: 10px;
+    border-radius: 24px;
+    display: inline-block;
+    border: 1px solid gray;
+    text-align: center;
+}
+.main .main_first .men:hover{
+    border: 1px solid #0155FF;
+    border-radius: 24px;
+    color: #0155FF;
+}
+.main .main_first .active{
+    border: 1px solid #0155FF;
+    border-radius: 24px;
+    color: #0155FF;
+}
+.main .main_first .data{
+    width: 100%;
+    height: 32px;
+    margin-top: 20px;
+}
+.main .main_first .weight{
+    font-weight: 560;
+}
+.main .main_first .btn{
+    float: right;
+    background: #0155FF;
+    margin-right: 30px;
+    font-family: PingFangSC-Regular;
+    font-size: 12px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    line-height: 24px;
+    width: 70px;
+    height: 24px;
+    border-radius: 24px;
+    text-align: center;
+    cursor: pointer;
+}
+.main .main_first .btn:hover{
+    opacity: 0.5;
+}
+.main .main_first .elem{
+    width: 100%;
+    height: 32px;
+    margin-top: 20px;
+}
+.main .main_first .elem .cal{
+    width: 160px;
+    height: 32px;
+    border: 1px solid #C6CBD4;
+    border-radius: 2px;
+    display: inline-block;
+
+}
+.main .main_first .elem .cal .text1{
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #2D2D2D;
+    margin-left: 10px;
+    height: 32px;
+    line-height: 32px;
+    width: 150px;
+    cursor: pointer;
+}
+.main .main_first .elem .unit{
+    border: 1px solid #C6CBD4;
+    border-radius: 2px;
+    width: 70px;
+    height: 32px;
+    display: inline-block;
+}
+.main .main_first .elem .unit .text2{
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #2D2D2D;
+    margin-left: 10px;
+    height: 32px;
+    line-height: 32px;
+    width: 70px;
+    cursor: pointer;
+}
+.main .main_first .left{
+    width: 40px;
+}
+.main .main_first .left1{
+    width: 85px;
+}
+.main .main_first .save{
+    width: 70px;
+    margin-left: 36px;
+    display: inline-block;
+    height: 26px;
+    background: #FFFFFF;
+    border: 1px solid #C6CBD4;
+    border-radius: 100px;
+    text-align: center;
+    font-family: PingFangSC-Regular;
+    font-size: 12px;
+    color: #333333;
+    letter-spacing: 0;
+    line-height: 24px;
+    background:url(img/icon_recipe_manage.png) center;
+}
+.main .main_first .sa_l{
+    margin-left: 54px;
+}
+.main .main_first .XX{
+    display: inline-block;
+    height: 32px;
+    width: 150px;
+    line-height: 32px;
+}
+.main .main_first .bg_h2{
+    background: rgb(229, 237, 244);
+    width: 100%;
+    height: 70px;
+}
+.main .main_first .bg_h2 .height{
+    margin-top: 20px;
+}
+.main .main_first .beef{
+    width: 570px;
+    height: 32px;
+    display: inline-block;
+    margin-top: 40px;
+}
+.main .main_first .beef .name_be{
+    display: inline-block;
+    
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #2D2D2D;
+    margin-top: 6px;
+    width: 130px;
+}
+.main .main_first .beef .we{
+    width: 40px;
+}
+.main .main_first .line_h{
+    margin-top: 60px;
+}
+.main .main_first .cow{
+    width: 600px;
+    height: 33px;
+    margin-top:50px; 
+    position: relative;
+    
+}
+.main .main_first .cow .bk{
+    position: absolute;
+    width: 70px;
+    height: 80px;
+    
+    right: -75px;
+    top: 0;
+
+}
+.main .main_first .cow .bk .bk1{
+    width: 70px;
+    height: 26px;
+    background: #FFFFFF;
+    border: 1px solid #C6CBD4;
+    border-radius: 100px;
+    font-family: PingFangSC-Regular;
+    font-size: 12px;
+    color: #333333;
+    letter-spacing: 0;
+    line-height: 24px;
+    text-align: center;
+    cursor: pointer;
+}
+.main .main_first .cow .bk .bk2{
+    margin-top: 10px;
+}
+.main .height3{
+    height: 370px;
+}
+.main .height4{
+    height: 200px;
+}
+.main .height5{
+    height: 800px;
+}
+.main .height6{
+    height: 171px;
+}
+.main .height7{
+    height: 86px;
+    
+}
+.main .main_first .btn_h{
+    margin-top: 20px;
+}
+.main .main_first .setps{
+    width: 100%;
+    height: 30px;
+    margin-top: 20px;
+}
+.main .main_first .setps .setps_1{
+    font-family: PingFangSC-Medium;
+    font-size: 14px;
+    color: #2D2D2D;
+    display: inline-block;
+    width: 40px;
+    height: 20px;
+    margin-left: 30px;
+    font-weight: 560;
+
+}
+.main .main_first .gener{
+    width: 282px;
+    height: 162px;
+    background: #FFFFFF;
+    border: 1px solid #C6CBD4;
+    border-radius: 2px;
+    margin-left: 30px;
+    display: inline-block;
+    margin-top: 20px;
+}
+.main .main_first .gener1{
+    width: 228px;
+    height: 162px;
+    background: #FFFFFF;
+    border: 1px solid #C6CBD4;
+    border-radius: 2px;
+    margin-left: 30px;
+    display: inline-block;
+    margin-top: 20px;
+    vertical-align: top;
+   
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #2D2D2D;
+}
+.main .main_first .heat{
+    position: relative;
+    width: 580px;
+    height: 32px;
+    margin-top: 30px;
+}
+.main .main_first .heat_1{
+    width: 160px;
+    height: 32px;
+    border: 1px solid #C6CBD4;
+    border-radius: 2px;
+    display: inline-block;
+}
+.main .main_first .heat_1 .heat_text{
+    font-family: PingFangSC-Regular;
+    font-size: 14px;
+    color: #2D2D2D;
+    padding-left: 10px;
+    
+    cursor: pointer;
+    width: 150px;
+    line-height: 32px;
+}
+.main .main_first .heat span{
+    width: 14px;
+    height: 14px;
+    border: 1px solid #C6CBD4;
+    display: inline-block;
+    margin-left: 30px;
+    margin-top: 5px;
+
+}
+.main .main_first .heat span .yg{
+    width: 10px; 
+    height: 10px;
+    margin-left: 2px;
+    margin-top: 2px;
+    background: #0155FF;
+}
+.main .main_first .heat .zhen{
+    font-size: 14px;
+    color: #2D2D2D;
+    width: 76px;
+    height: 20px;
+    display: inline-block;
+    margin-left: 5px;
+    margin-top: 4px;
+    vertical-align: top;
+}
+.main .main_first .heat_left{
+    margin-left: 26px;
+}
+.main .main_first .cow .bk_p{
+    top: -155px;
+}
+.main .main_first .cow1{
+    margin-top: 0;
+}
+.main .main_first .cow1 .bk_p{
+    top: -40px;
+}
+.main .main_first .boot_h2{
+    margin-top: 30px;
+}
+.main .main_first .footer{
+    width: 90px;
+    height: 26px;
+    background: #FFFFFF;
+    border: 1px solid #C6CBD4;
+    border-radius: 4px;
+    display: inline-block;
+    margin-left: 10px;
+    margin-top: 30px;
+    vertical-align: top;
+    text-align: center;
+    font-size: 14px;
+    line-height: 26px;
+}
+.sub{
+    margin-top: 30px;
+    width: 110px;
+    height: 32px;
+    border: 1px solid #0155FF;
+    border-radius: 24px; 
+    font-size: 14px;
+    text-align: center;
+    line-height: 32px;
+    margin-left: 45%; 
+    color: #0155FF;
+    display: inline-block;
+    cursor: pointer;
+}
+.sub2{
+    margin-left: 10%;
+    background: #0155FF;
+    color: #FFFFFF;
+}
+.ab{
+    width: 100%;
+    height: 100px;
+}
+
+
+/* 上传图片中心部分 */
+.main .main_first .upload .up_ce{
+    width: 500px;
+    height: 100px;
+    position: relative;
+    display: none;
+}
+.main .main_first .upload .ac{
+    display: block;
+}
+.main .main_first .upload .up_ce .se_img{
+    opacity: 0.2;
+    background: #FFFFFF;
+    border: 1px solid #2D2D2D;
+    border-radius: 4px;
+    width: 90px;
+    height: 90px;
+    margin-top: 20px;
+    margin-left: 30px;
+    
+    cursor: pointer;
+}
+.main .main_first .upload .up_ce .se_img img{
+    width: 90px;
+    height: 90px;
+   
+}
+.main .main_first .upload .up_ce .jia{
+    position: absolute;
+    
+    font-family: PingFangSC-Regular;
+    font-size: 12px;
+    color: #2D2D2D;
+    letter-spacing: 0;
+    width: 88px;
+    height: 21px;
+    
+    left: 35px;
+    top: 70px;
+    text-align: center;
+    line-height: 21px;
+    
+}
+.main .main_first .upload .up_ce .jpg{
+    font-size:14px; 
+    position: absolute;
+    left: 150px;
+    top: 10px;
+}

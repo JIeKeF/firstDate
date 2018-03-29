@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+</head>
+<body>
+    <!-- 顶部 -->
+    <div class="top">
+         <span class="recipe">菜谱管理</span>
+         <span class="bg">></span>
+         <span class="new">新增菜谱</span>
+    </div>
+    <div class="center">
+        <div class="mg">
+            <div class="center_1">导入通用菜谱</div>
+            <div class="center_1">导入博世菜谱</div>
+            <div class="center_1">导入西门子菜谱</div>
+        </div>
+
+        <div class="main">
+            <div class="main_first">
+                <h2>基本信息</h2>
+                <div class="line"></div>
+                <div class="name">
+                    <div class="name_re">菜谱名称:</div>
+                    <div class="name_int">
+                        <div class="text">标准名称不包含分类</div>
+                    </div>
+                </div>
+                <div class="upload">
+                    <div class="name_re">上传图片:</div>
+                    <div class="upload_img">
+                        <div class="img_top" id="img_top">
+                            <ul>
+                                <li class="one " id="one1">通用</li>
+                                <li>博世</li>
+                                <li>西门子</li>
+                                <li>Home Connect</li>
+                            </ul>
+                        </div>
+                        <div class="up_ce ac">
+                            <div class="se_img">
+                                <img src="img/img_placeholder_recipe_cover.png" alt="">
+                            </div>
+                            <div class="jia">选择图片1</div>
+                            <span class="jpg">支持JPG、PNG、大小超过2M</span>
+                        </div>
+                        <div class="up_ce">
+                                <div class="se_img">
+                                    <img src="img/img_placeholder_recipe_cover.png" alt="">
+                                </div>
+                                <div class="jia">选择图片2</div>
+                                <span class="jpg">支持JPG、PNG、大小超过2M</span>
+                            </div>
+                            <div class="up_ce">
+                                    <div class="se_img">
+                                        <img src="img/img_placeholder_recipe_cover.png" alt="">
+                                    </div>
+                                    <div class="jia">选择图片3</div>
+                                    <span class="jpg">支持JPG、PNG、大小超过2M</span>
+                                </div>
+                         <div class="up_ce">
+                              
+                          </div>
+                    </div>
+                </div>
+                <div class="video">
+                    <div class="name_re">视屏上传:</div>
+                    <div class="video_up">
+                        <div class="video_top" id="video_top">
+                            <ul>
+                                <li class="one" id="one2">通用</li>
+                                <li>博世</li>
+                                <li>西门子</li>
+                            </ul>
+                        </div>
+                        <div class="link at">https://1</div>
+                        <div class="link">https://2</div>
+                        <div class="link">https://3</div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="main_first main_height2">
+                <h2>附加信息</h2>
+                <div class="line"></div>
+                <div class="name">
+                    <div class="name_re">推荐描述:</div>
+                    <div class="name_int">
+                        <div class="text">标准名称不包含分类</div>
+                    </div>
+                </div>
+                <div class="xen" id="xen">
+                    <div class="name_re">推荐评分:</div>
+                    <ul>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </div>
+                <div class="xen" id="xen1">
+                    <div class="name_re">难度等级:</div>
+                    <ul>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                            <li></li>
+                        </ul>
+                </div>
+                <div class="xen">
+                    <div class="name_re">用餐人数:</div>
+                    <div class="men active">1-3人</div>
+                    <div class="men">4-6人</div>
+                    <div class="men">6人以上</div>
+                </div>
+                <div class="line"></div>
+                <div class="data">
+                    <div class="name_re weight">营养数据:</div>
+                    <div class="btn">添加</div>
+                </div>
+                <div class="elem">
+                    <div class="name_re">营养元素:</div>
+                    <div class="cal">
+                        <div class="text1">卡路里</div>
+                    </div> 
+                    <div class="name_re left">单位:</div>
+                    <div class="unit">
+                        <div class="text2">千卡</div>
+                    </div>
+                    <div class="name_re left">数量:</div>
+                    <div class="unit">
+                        <div class="text2">100</div>
+                    </div>
+                    <div class="save">保存</div>
+                </div>
+                <div class="elem">
+                    <div class="name_re">营养标签:</div>
+                    <div class="cal">
+                        <div class="text1">低卡健康</div>
+                    </div>
+                    <div class="name_re left1">每日占比(%):</div>
+                    <div class="cal">
+                        <div class="text1">20</div>
+                    </div>
+                    <div class="save sa_l">取消</div>
+                </div>
+                <div class="elem">
+                    <div class="name_re">标签详情:</div>
+                    
+                <div class="XX">XXXXXXXX</div>
+                </div>
+            </div>
+            <div class="main_first height3">
+                <div class="bg_h2">
+                    <h2 >主料信息</h2>   
+                    <div class="btn height">添加</div>
+                </div>
+                <div class="beef">
+                        <div class="name_re">名称:</div>
+                        <div class="name_be">牛肉</div>
+                        <div class="name_re">单位:</div>
+                        <div class="name_be we">千克</div>
+                        <div class="name_re">数量:</div>
+                        <div class="name_be we">1</div>
+                </div>
+                <div class="line line_h"></div>
+
+                <div class="cow">
+                        <div class="elem">
+                                <div class="name_re">名称:</div>
+                                <div class="cal">
+                                    <div class="text1">牛肉</div>
+                                </div> 
+                                <div class="name_re left">单位:</div>
+                                <div class="unit">
+                                    <div class="text2">千卡</div>
+                                </div>
+                                <div class="name_re left">数量:</div>
+                                <div class="unit">
+                                    <div class="text2">1</div>
+                                </div>
+                                
+                        </div>
+                        <div class="bk">
+                            <div class="bk1">保存</div>
+                            <div class="bk1 bk2" >取消</div>
+                        </div>
+                </div>
+            </div>
+            <div class="main_first height4">
+                    <h2 >辅料信息</h2>   
+                    <div class="btn btn_h">添加</div>
+                    <div class="line"></div>
+                    <div class="cow">
+                            <div class="elem">
+                                    <div class="name_re">名称:</div>
+                                    <div class="cal">
+                                        <div class="text1">牛肉</div>
+                                    </div> 
+                                    <div class="name_re left">单位:</div>
+                                    <div class="unit">
+                                        <div class="text2">千卡</div>
+                                    </div>
+                                    <div class="name_re left">数量:</div>
+                                    <div class="unit">
+                                        <div class="text2">1</div>
+                                    </div>
+                                    
+                            </div>
+                            <div class="bk">
+                                <div class="bk1">保存</div>
+                                <div class="bk1 bk2" >取消</div>
+                            </div>
+                    </div>
+            </div>
+            <div class="main_first height5">
+                    <h2 >烹饪步骤</h2>   
+                    <div class="btn btn_h">添加步骤</div>
+                    <div class="line"></div>
+                    <div class="setps">
+                        <div class="setps_1">步骤1</div>
+                        <div class="btn">添加程序</div>
+                    </div>
+                    <div class="gener">
+
+                    </div>
+                    <div class="gener1">描述</div>
+                    <div class="setps">
+                            <div class="setps_1">程序1</div>
+                            <div class="btn">添加附件</div>
+                    </div>
+                    <div class="heat">
+                            <div class="name_re">加热模式:</div>
+                            <div class="heat_1 heat_left">
+                                <div class="heat_text">3D热风</div>
+                            </div>
+                            <div class="name_re">温度:</div>
+                            <div class="heat_1">
+                                    <div class="heat_text">200</div>
+                            </div>
+                    </div>
+                    <div class="heat">
+                             <div class="peach">
+                                 <span>
+                                     <div class="yg"></div>
+                                 </span>
+                                 <div class="zhen">烤肉探针</div>
+                                 <div class="heat_1">
+                                        <div class="heat_text">中心温度</div>
+                                 </div>
+                                 <div class="name_re">时间:</div>
+                                 <div class="heat_1">
+                                         <div class="heat_text">20</div>
+                                 </div>
+                             </div>
+                    </div>
+                    <div class="heat">
+                            <div class="peach">
+                                <span>
+                                    <div class="yg"></div>
+                                </span>
+                                <div class="zhen">蒸汽等级</div>
+                                <div class="men active">等级1</div>
+                                <div class="men">等级2</div>
+                                <div class="men">等级3</div>
+                            </div>
+                   </div>
+                    <div class="cow cow1">
+                        <div class="bk bk_p">
+                            <div class="bk1">保存</div>
+                            <div class="bk1 bk2" >取消</div>
+                        </div> 
+                    </div>
+                    <div class="line"></div>
+                    <div class="setps">
+                            <div class="setps_1">附件1</div>
+                    </div>
+                    <div class="cow">
+                            <div class="elem">
+                                    <div class="name_re">附件:</div>
+                                    <div class="cal">
+                                        <div class="text1">厚底烤盘</div>
+                                    </div> 
+                                    <div class="name_re left">位置:</div>
+                                    <div class="unit">
+                                        <div class="text2">第二层</div>
+                                    </div>
+                                    <div class="name_re left">数量:</div>
+                                    <div class="unit">
+                                        <div class="text2">1</div>
+                                    </div>
+                                    
+                            </div>
+                            <div class="bk">
+                                <div class="bk1">保存</div>
+                                <div class="bk1 bk2" >取消</div>
+                            </div>
+                    </div>
+            </div>
+            <div class="main_first height6">
+                    <h2 >烹饪贴士</h2>   
+                    <div class="btn btn_h">添加</div>
+                    <div class="line"></div>
+                         
+                    <div class="elem">
+                        <div class="name_re">Tips:</div>
+                            
+                        <div class="XX">XXXXXXXX</div>
+                    </div>
+                    <div class="cow cow1">
+                            <div class="bk bk_p">
+                                <div class="bk1">保存</div>
+                                <div class="bk1 bk2" >取消</div>
+                            </div> 
+                    </div>
+            </div>
+            <div class="main_first height7">
+                    <h2 class="boot_h2">关键词</h2> 
+                    <div class="footer">关键词1</div>
+                    <div class="footer">关键词2</div>
+                    <div class="footer">关键词3</div> 
+            </div>
+        </div>
+        
+    </div>
+    <div class="sub">重置</div>
+    
+    <div class="sub sub2">提交</div>
+    <div class="ab"></div>
+</body>
+</html>
